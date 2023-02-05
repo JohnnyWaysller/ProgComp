@@ -6,7 +6,7 @@ int main()
 	int segundos, minutos;
 	cout << "Digite uma quantidade de minutos: ";
 	cin >> minutos;
-	segundos = 100 * minutos;
+	segundos = 60 * minutos;
 	cout << "Existem " << segundos << " segundos em " 
 		 << minutos << " minutos.";
 	cout << endl;
